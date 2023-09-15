@@ -7,14 +7,16 @@ while (i < spesa.length ){
 
   console.log(spesa[i]);
 
+  const item = spesa[i]
+ listEl.innerHTML += `<li>${item}</li>`
  i++;
-
 }
 
 for(let i = 0; i< spesa.length; i++){
 
-
 }
+
+const listEl = document.getElementById('output');
 
 /* quando abbiamo un array di tot elementi per calcolare la sua lunghezza
   dobbiamo dare all'indicatore 0 ,cioè il punto di partenza dell'array e 
@@ -35,3 +37,4 @@ for(let i = 0; i< spesa.length; i++){
 // creiamo un ciclo while l'array deve essere uguale al contatore -1
 //incrementiamo l'array con il contatore 
 // stampiamo in pagina 
+
