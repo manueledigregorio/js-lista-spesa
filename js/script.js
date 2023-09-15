@@ -2,6 +2,7 @@
 const spesa = ['patate', 'pasta', 'pane', 'carne'];
 //creare un contatore
 let i = 0;
+const listEl = document.getElementById('output');
 //facciamo un ciclo while 
 while (i < spesa.length ){
 
@@ -16,7 +17,7 @@ for(let i = 0; i< spesa.length; i++){
 
 }
 
-const listEl = document.getElementById('output');
+
 
 /* quando abbiamo un array di tot elementi per calcolare la sua lunghezza
   dobbiamo dare all'indicatore 0 ,cioè il punto di partenza dell'array e 
